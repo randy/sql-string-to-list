@@ -1,0 +1,21 @@
+<idea-plugin>
+  <version>1.0</version>
+  <idea-version since-build="191.8026" until-build="191.*"/>
+  <id>com.randyFRS.sql-string-to-list</id>
+  <name>"SQL String to List</name>
+  <vendor email="rd.schreck@gmail.com">Randy Schreck</vendor>
+  <description>This is useful when a SQL query returns a comma-separated string of text and you need to use the result in another query.
+    &lt;br&gt;&lt;br&gt;Example:&lt;br&gt; &lt;pre&gt;abc,def,ghi&lt;pre&gt; becomes &lt;pre&gt;'abc','def','ghi'&lt;pre&gt;.
+    </description>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <extensions defaultExtensionNs="com.intellij"/>
+  <actions>
+    <group id="SqlStringToList" text="SQL String to List" popup="true">
+      <add-to-group group-id="ToolsMenu" anchor="first"/>
+      <action id="sjq.basic" class="SqlStringToList" text="String to List" description="Splits a String at comma(s), then surrounds each with single quotes."/>
+      <action id="sjq.adv" class="SqlStringToList" text="String to List with New Line" description="Splits a String at comma(s), then surrounds each with single quotes, putting each on a new line."/>
+    </group>
+  </actions>
+</idea-plugin>
