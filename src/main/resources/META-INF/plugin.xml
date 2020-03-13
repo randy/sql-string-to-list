@@ -1,11 +1,16 @@
 <idea-plugin>
     <id>com.randyFRS.sql-string-to-list</id>
-    <name>"SQL String to List</name>
-    <vendor email="rd.schreck@gmail.com">Randy Schreck</vendor>
+    <name>SQL String to List</name>
 
     <description><![CDATA[This is useful when a SQL query returns a comma-separated string of text and you need to use the result in another query.
     <br><br>Example:<br> <pre>abc,def,ghi<pre> becomes <pre>'abc','def','ghi'<pre>.
+    <br><br>The secondary option places each string on a new line.
     ]]></description>
+
+
+    <version>1.0</version>
+
+    <vendor email="rd.schreck@gmail.com">Randy Schreck</vendor>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
@@ -13,12 +18,7 @@
     <depends>com.intellij.modules.lang</depends>
     -->
 
-    <change-notes><![CDATA[Initial release. No plans for additional functionality at this time.]]>
-    </change-notes>
-
-    <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
-    </extensions>
+    <idea-version since-build="2019.1" until-build="2019.1.4"/>
 
     <actions>
         <!-- Add your actions here -->
@@ -32,4 +32,9 @@
             </action>
         </group>
     </actions>
+
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
 </idea-plugin>

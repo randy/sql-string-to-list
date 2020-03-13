@@ -22,6 +22,5 @@ intellij {
 }
 patchPluginXml {
     changeNotes """
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>"""
+    Initial release. No plans for additional functionality at this time."""
 }
