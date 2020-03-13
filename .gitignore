@@ -1,0 +1,16 @@
+.gradle
+.gradletasknamecache
+/build/
+/reports/
+/logs/
+!gradle/wrapper/gradle-wrapper.jar
+classes/
+/jar/*.jar*
+.DS_Store
+/out/*
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
