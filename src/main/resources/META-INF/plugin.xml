@@ -3,7 +3,7 @@
     <name>SQL String to List</name>
 
     <description><![CDATA[This is useful when a SQL query returns a comma-separated string of text and you need to use the result in another query.
-    <br><br>Example:<br> <pre>abc,def,ghi<pre> becomes <pre>'abc','def','ghi'<pre>.
+    <br><br>Example:<br><pre>abc,def,ghi</pre> becomes <pre>'abc','def','ghi'</pre>
     <br><br>The secondary option places each string on a new line.
     ]]></description>
 
