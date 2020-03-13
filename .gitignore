@@ -1,4 +1,4 @@
-.gradle
+.gradle/
 .gradletasknamecache
 /build/
 /reports/
@@ -10,7 +10,7 @@ classes/
 /out/*
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
