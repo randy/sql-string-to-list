@@ -10,3 +10,6 @@ this is useful when dealing with lengthy results, especially UUIDs.
 
 Example:
 `abc,def,ghi` becomes `'abc','def','ghi'`.
+
+---
+To install locally, run the `buildPlugin` Gradle task, then look for the `.zip` file in the `/build/distributions/` directory of the project. On IntelliJ 2019+, there's a cogwheel on the menu of the Plugins screen in Preferences...
