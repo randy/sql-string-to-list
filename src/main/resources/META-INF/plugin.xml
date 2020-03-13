@@ -26,9 +26,11 @@
             <add-to-group group-id="ToolsMenu" anchor="first"/>
             <action id="sjq.basic" class="SqlStringToList" text="String to List"
                     description="Splits a String at comma(s), then surrounds each with single quotes.">
+                <keyboard-shortcut keymap="Mac OS X 10.5+" first-keystroke="shift alt S"/>
             </action>
             <action id="sjq.adv" class="SqlStringToList" text="String to List with New Line"
                     description="Splits a String at comma(s), then surrounds each with single quotes, putting each on a new line.">
+                <keyboard-shortcut keymap="Mac OS X 10.5+" first-keystroke="control shift alt S"/>
             </action>
         </group>
     </actions>
